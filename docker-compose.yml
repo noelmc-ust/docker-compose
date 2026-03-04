@@ -12,7 +12,7 @@ services:
     ports:
       - "8081:8080"
   cart-app:
-    image: muralisocial123/ey-cart
+    image: muralisocial123/ey-cart:v1.1.0
     container_name: ey-cart
     ports:
       - "3001:3000"
@@ -22,7 +22,7 @@ services:
     ports:
       - "5001:5000"
   
-  
+
 
 
 
